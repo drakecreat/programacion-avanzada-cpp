@@ -14,6 +14,12 @@
 bool esPrimo(int n) {
     // TODO: retorna true si n es primo, false si no lo es.
     // Pista: un numero es primo si no tiene divisores entre 2 y n-1.
+    for (int i = 2; i < n; ++i) {
+        if (n % i == 0) {
+            return false;
+        }
+    }
+
     return false;
 }
 
