@@ -20,7 +20,7 @@ bool esPrimo(int n) {
         }
     }
 
-    return false;
+    return true;
 }
 
 int main() {
