@@ -38,7 +38,7 @@ public:
     Vector2D operator+(Vector2D otro) {
         // TODO: retorna un Vector2D nuevo con x + otro.getX() como
         // primera coordenada, y y + otro.getY() como segunda.
-        double nuevoX = x + otro.getX();
+        double nuevoX = x + otro.getX(); 
         double nuevoY = y + otro.getY();
         return Vector2D(nuevoX, nuevoY);
     }
